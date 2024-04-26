@@ -1,0 +1,99 @@
+  * {
+      box-sizing: border-box;
+      padding: 0px;
+      margin: 0px;
+  }
+
+  body {
+      font-family: 'Roboto', sans-serif;
+
+  }
+
+
+  .header-sec {
+      display: flex;
+      justify-content: space-between;
+       padding: 50px;
+  }
+
+  .header-right-sec {
+      display: flex;
+      gap: 100px;
+  }
+
+  .bell-sec {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .bell-sec h3 {
+      padding-bottom: 3px;
+      font-size: 24px;
+      font-weight: 600;
+  }
+  .bell-sec p{
+    font-size: 18px;
+
+  }
+  .right-sub-sec{
+    display: flex;
+    gap: 10px;
+  }
+  .right-sub-sec p{
+    font-size: 18px;
+    padding-bottom: 2px;
+  }
+
+  .nav-sec {
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    color: white;
+
+  }
+  .nav-sec p{
+    padding: 20px 50px;
+    font-size: 18px;
+  }
+  .hero-sec{
+    background-image: url(/images/admission.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   padding: 0px 80px;
+  }
+  .hero-sec h2{
+    font-size: 46px;
+    padding: 5px 0px;
+  }
+  .hero-sec p{
+    font-size: 20px;
+    padding: 10px 0px;
+    max-width: 450px;
+  }
+  .contact-us{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(249 115 22);
+  }
+   .our-button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(249 115 22);
+  }
